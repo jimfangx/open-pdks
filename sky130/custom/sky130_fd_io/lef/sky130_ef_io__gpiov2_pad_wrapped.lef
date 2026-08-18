@@ -432,7 +432,11 @@ MACRO sky130_ef_io__gpiov2_pad_wrapped
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 0.000 186.750 1.270 210.965 ;
+        RECT 0.000 186.750 80.000 210.965 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 0.000 186.750 80.000 210.965 ;
     END
     PORT
       LAYER met5 ;
@@ -441,10 +445,6 @@ MACRO sky130_ef_io__gpiov2_pad_wrapped
     PORT
       LAYER met4 ;
         RECT 0.000 36.800 1.270 41.450 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 78.730 186.750 80.000 210.965 ;
     END
     PORT
       LAYER met5 ;
@@ -540,7 +540,7 @@ MACRO sky130_ef_io__gpiov2_pad_wrapped
       LAYER met3 ;
         RECT 0.310 9.655 79.570 210.965 ;
       LAYER met4 ;
-        RECT 1.670 186.350 78.330 210.965 ;
+        RECT 1.670 186.350 78.330 186.750 ;
         RECT 0.965 106.365 78.970 186.350 ;
         RECT 1.670 80.600 78.330 106.365 ;
         RECT 0.965 79.900 78.970 80.600 ;
@@ -571,7 +571,7 @@ MACRO sky130_ef_io__gpiov2_pad_wrapped
         RECT 1.670 12.600 78.330 18.850 ;
         RECT 0.965 11.500 78.970 12.600 ;
       LAYER met5 ;
-        RECT 0.000 179.575 80.000 210.965 ;
+        RECT 0.000 179.575 80.000 186.750 ;
         RECT 0.000 113.925 9.600 179.575 ;
         RECT 75.400 113.925 80.000 179.575 ;
         RECT 0.000 107.550 80.000 113.925 ;
