@@ -284,6 +284,10 @@ MACRO sky130_ef_io__vssa_hvc_pad
     END
     PORT
       LAYER met4 ;
+        RECT 74.360 189.565 74.370 189.575 ;
+    END
+    PORT
+      LAYER met4 ;
         RECT 0.000 173.750 1.270 197.965 ;
     END
     PORT
@@ -331,14 +335,6 @@ MACRO sky130_ef_io__vssa_hvc_pad
         RECT 0.000 56.200 1.270 60.650 ;
     END
   END VSSIO_Q
-  PIN VSSIO
-    DIRECTION INOUT ;
-    USE GROUND ;
-    PORT
-      LAYER met4 ;
-        RECT 74.360 189.565 74.370 189.575 ;
-    END
-  END VSSIO
   OBS
       LAYER nwell ;
         RECT 11.860 -1.350 70.965 0.170 ;
